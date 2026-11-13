@@ -26,8 +26,8 @@ contentLanguage: th
     </div>
     <div class="timeline-start md:text-end mb-10">
       <time>2016 / 2559</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">เข้าศึกษา</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">เข้าศึกษา</div>
         เข้าศึกษาระดับปริญญาตรี <br />
         ณ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์
       </div>
@@ -52,8 +52,8 @@ contentLanguage: th
     </div>
     <div class="timeline-end mb-10">
       <time>2019 / 2562</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">
           ฝึกงาน ณ เขื่อนวชิราลงกรณ จังหวัดกาญจนบุรี   <a class="link link-neutral" style="color: gray; text-decoration: none"
           href="/th/project/internship/">
             รายละเอียดโครงการ 
@@ -62,8 +62,8 @@ contentLanguage: th
         ฝึกงานร่วมกับฝ่ายงานดิจิทัล
         ได้ร่วมพัฒนาระบบเพื่อใช้ในการกรอกข้อมูลรับสมัครงานปั่นจักรยานของเขื่อนวชิราลงกรณ
       </div>
-      <div class="timeline-box mt-4">
-          <div class="text-lg font-black kanit">โครงงาน
+      <div class="timeline-box text-base mt-4">
+          <div class="text-lg font-medium font-sans kanit">โครงงาน
             <a
             href="/th/project/ehealth/"
             class="link link-neutral"
@@ -94,25 +94,25 @@ contentLanguage: th
     </div>
     <div class="timeline-start md:text-end mb-10">
       <time>2020 / 2563</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit"> เริ่มทำงาน</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit"> เริ่มทำงาน</div>
         เป็นนักพัฒนาโปรแกรมที่ศูนย์วิจัยระบบอัตโนมัติอัจฉริยะ คณะวิศวกรรมศาสตร์
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">ระบบ E-OnlineShop Version 1</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">ระบบ E-OnlineShop Version 1</div>
         ร่วมกับทีมในศูนย์วิจัยพัฒนาระบบ E-OnlineShop เพื่อเป็นระบบ E-Commerce
         สำหรับร้านค้าระดับ SMEs โดยทดลองใช้ในร้านค้าแห่งหนึ่ง ใน จ.พัทลุง
         ก่อนที่ทางศูนย์วิจัยจะมีการพัฒนาต่อไปเป็นระบบ Version 2 ในชื่อ
         E-Merchant ในปี 2022
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">ระบบ E-Accom Version 1</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">ระบบ E-Accom Version 1</div>
         พัฒนาระบบจัดการโรงแรม และจองห้องออนไลน์เบื้องต้น
         โดยเริ่มพัฒนากับโรงแรมในจังหวัดสุราษฎร์ธานี และ พัทลุง
         โดยโครงการนี้พัฒนาไม่สำเร็จ
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit"> พัฒนาระบบแดชบอร์ดสำหรับ IoT ใน E-IotSoft<a
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit"> พัฒนาระบบแดชบอร์ดสำหรับ IoT ใน E-IotSoft<a
           href="/th/project/eiotsoft/"
           class="link link-neutral"
           style="color: gray; text-decoration: none"
@@ -121,8 +121,8 @@ contentLanguage: th
         ระบบน้ำประปาหมู่บ้านใน อ. จะนะ จ. สงขลา ซึ่งจะเป็นจุดเริ่มต้นของระบบ
         E-IoTSoft และศูนย์วิจัยได้นำไปพัฒนาต่อเป็นระบบ E-Machine ในปี 2022
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">จบการศึกษา</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">จบการศึกษา</div>
         ระดับปริญญาตรี จากคณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์
       </div>
     </div>
@@ -146,13 +146,13 @@ contentLanguage: th
     </div>
     <div class="timeline-end mb-10">
       <time>2021 / 2564</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">ระบบ E-Worker</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">ระบบ E-Worker</div>
         พัฒนาระบบสำหรับบริหารจัดการงาน และ ส่งต่องานไปยังแต่ละแผนก
         โดยได้ทดลองใช้กับโรงแรมในจังหวัดกระบี่
       </div>
-      <div class="timeline-box mt-4">
-          <div class="text-lg font-black kanit">ระบบ E-Accom Version 2 <a
+      <div class="timeline-box text-base mt-4">
+          <div class="text-lg font-medium font-sans kanit">ระบบ E-Accom Version 2 <a
             href="/th/project/eaccom/"
             class="link link-neutral"
             style="color: gray; text-decoration: none"
@@ -161,8 +161,8 @@ contentLanguage: th
         โดยใช้ประสบการณ์ที่มีมา ทำให้ระบบสามารถประสบความสำเร็จ
         และทดลองใช้กับโรงแรมแห่งหนึ่งในจังหวัดนครศรีธรรมราช
       </div>
-      <div class="timeline-box mt-4">
-          <div class="text-lg font-black kanit">ระบบ E-Manufac<a
+      <div class="timeline-box text-base mt-4">
+          <div class="text-lg font-medium font-sans kanit">ระบบ E-Manufac<a
             href="/th/project/emanufac/"
             class="link link-neutral"
             style="color: gray; text-decoration: none"
@@ -194,8 +194,8 @@ contentLanguage: th
     </div>
     <div class="timeline-start md:text-end mb-10">
       <time>2022 / 2565</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">เข้าศึกษาระดับปริญญาโท</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">เข้าศึกษาระดับปริญญาโท</div>
         ในคณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์
       </div>
     </div>
@@ -219,12 +219,12 @@ contentLanguage: th
     </div>
     <div class="timeline-end mb-10">
       <time>2023 / 2566</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">ออกจากงาน</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">ออกจากงาน</div>
        ในฐานะพนักงานเต็มเวลา เพื่อทุ่มเทให้การศึกษา และการทำวิจัยในการเรียนปริญญาโท
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">งานวิจัย <a
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">งานวิจัย <a
           href="/th/project/cost-estimation/"
           class="link link-neutral"
           style="color: gray; text-decoration: none"
@@ -254,19 +254,19 @@ contentLanguage: th
     </div>
     <div class="timeline-start md:text-end mb-10">
       <time>2024 / 2567</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">ระบบ E-Manufac กับการจัดการวัตถุดิเกี่ยวกับปู</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">ระบบ E-Manufac กับการจัดการวัตถุดิเกี่ยวกับปู</div>
         เพิ่มฟีเจอร์ในระยย E-Manufac ให้จัดการกระบวนการของการผลิต โดยดำเนินการไปตามการเคลื่อนไหวและแปรสภาพของวัตถุดิบ
         พัฒนาร่วมกันกับโรงงานผลิตปูในจังหวัดสุราษฎร์ธานี
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">ICGEC 2024 Conference </div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">ICGEC 2024 Conference </div>
         นำเสนอบทความ Time Driven Cost Estimation Learning Model (TDCE) ในการประชุมวิชาการ 
         16th International Confernece on Genetic and Evolutionary Computing (ICGEC-2024)
         จัดขึ้นที่จังหวัดมิยาซากิ ประเทศญี่ปุ่น
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">ร่วมกิจกรรม Sakura Science Exchange Program</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">ร่วมกิจกรรม Sakura Science Exchange Program</div>
         ได้มีรับโอกาสให้เข้าร่วมกิจกรรมแลกเปลี่ยน JST Sakura Science Exchange Program ณ University of Miyazaki จังหวัดมิยาซากิ ประเทศญี่ปุ่น
       </div>
     </div>
@@ -290,21 +290,21 @@ contentLanguage: th
     </div>
     <div class="timeline-end mb-10">
       <time>2025 / 2568</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">สอบปกป้องวิทยานิพนธ์</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">สอบปกป้องวิทยานิพนธ์</div>
         สอบปกป้องวิทยานิพนธ์ในหัวข้อ โครงสร้างเสมือนระบบประสาทเทียมสำหรับการประมาณต้นทุนการผลิต
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">พัฒนาระบบจัดการคลังวัตถุดิบด้วยเครื่องชั่ง Bluetooth</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">พัฒนาระบบจัดการคลังวัตถุดิบด้วยเครื่องชั่ง Bluetooth</div>
         ต่อยอดแนวคิดการพัฒนาระบบสำหรับการผลิตปูพาสเจอร์ไรส์ ให้มีความ Real-time มากขึ้น โดยใช้เครื่องชั่งน้ำหนักแบบ Bluetooth ส่งตรงเข้ามายังระบบ
         และเพิ่มเติมด้วยระบบคำนวณต้นทุนต่าง ๆ
       </div>
-   <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">เริ่มการเป็นนักศึกษาวิจัย</div>
+   <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">เริ่มการเป็นนักศึกษาวิจัย</div>
         เริ่มต้นการเป็นนักศึกษาวิจัย ในคณะวิศวกรรมศาสตร์ มหาวิทยาลัยมิยาซากิ ประเทศญี่ปุ่น
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">จบการศึกษาระดับปริญญาโท</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">จบการศึกษาระดับปริญญาโท</div>
        จบการศึกษาระดับปริญญาโท จากคณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์ อย่างเป็นทางการ 
       </div>
     </div>
@@ -328,16 +328,16 @@ contentLanguage: th
     </div>
     <div class="timeline-start md:text-end mb-10">
       <time>2026 / 2569</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">เข้าศึกษาต่อระดับปริญญาเอก</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">เข้าศึกษาต่อระดับปริญญาเอก</div>
        เริ่มต้นการศึกษาระดับปริญญาเอกที่ Interdisciplinary Graduate School of Agriculture and Engineering มหาวิทยาลัยมิยาซากิ ประเทศญี่ปุ่น
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit"> งานวิจัยการติดตามพฤติกรรมของโคนมภายใต้กล้องมากกว่าหนึ่งตัว</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit"> งานวิจัยการติดตามพฤติกรรมของโคนมภายใต้กล้องมากกว่าหนึ่งตัว</div>
        เริ่มต้นการวิจัยเกี่ยวกับการติดตามวัตถุหลายตัวภายใต้กล้องมากกว่าหนึ่งตัว (Cross-camera Multi-Object Tracking) สำหรับการติดตามพฤติกรรมของโคนมที่กำลังตั้งท้องและการทำนายการคลอด
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">GCCE 2026 Conference</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">GCCE 2026 Conference</div>
         นำเสนอผลงานวิจัยเรื่อง "Detection and Segmentation Model for Cattle Tracking: A Comparative Study of YOLOv8, YOLO11, and YOLO26" ในงานประชุม IEEE Global Conference on Consumer Electronics (GCCE) 2026 ที่เมืองโกเบ ประเทศญี่ปุ่น
       </div>
     </div>

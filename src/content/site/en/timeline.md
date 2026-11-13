@@ -26,8 +26,8 @@ contentLanguage: en
     </div>
     <div class="timeline-start md:text-end mb-10">
       <time>2016</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">Start a Bachelor Degree</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">Start a Bachelor Degree</div>
         In Computer Engineering <br />
         Faculty of Engineering, Prince of Songkla University
       </div>
@@ -52,8 +52,8 @@ contentLanguage: en
     </div>
     <div class="timeline-end mb-10">
       <time>2019</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">
           Internship At Vajiralongkorn Dam , EGAT
           <a class="link link-neutral" style="color: gray; text-decoration: none"
           href="/en/project/internship">
@@ -64,8 +64,8 @@ contentLanguage: en
         across the community in dam, and develop a system for application data
         entry for bike event.
       </div>
-      <div class="timeline-box mt-4">
-          <div class="text-lg font-black kanit">Graduated Project <a
+      <div class="timeline-box text-base mt-4">
+          <div class="text-lg font-medium font-sans kanit">Graduated Project <a
             href="/en/project/ehealth"
             class="link link-neutral"
             style="color: gray; text-decoration: none"
@@ -94,23 +94,23 @@ contentLanguage: en
     </div>
     <div class="timeline-start md:text-end mb-10">
       <time>2020</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">Start Working</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">Start Working</div>
           As a software developer at Intelligent Automation Research Center, Faculty of Engineering, PSU
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit"> E-OnlineShop Version 1</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit"> E-OnlineShop Version 1</div>
         Collaborate with the team develop software E-OnlineShop for SME E-Commerce.
         Pilot testing in a shop at Phattalung Province, before the research center continue develop this into 2nd version and name them as E-Merchant in 2022. 
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">E-Accom Version 1</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">E-Accom Version 1</div>
         Property Management System for hotel booking and online booking system,
         start development with hotels in Suratthani and Phattalung Province.
         Unfortunately, this project was not successful.
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit"> IoT Dashboard in E-IotSoft <a
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit"> IoT Dashboard in E-IotSoft <a
           href="/en/project/eiotsoft"
           class="link link-neutral"
           style="color: gray; text-decoration: none"
@@ -118,8 +118,8 @@ contentLanguage: en
         Develop with research center for monitoring and control the water supply system in Chana, Songkhla.
         This is the beginning of E-IoTSoft System and develop into E-Machine in 2022.
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">Graduate from a Bachelor's Course</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">Graduate from a Bachelor's Course</div>
         Got a bachelor degree from Faculty of Engineering, Prince of Songkla University
       </div>
     </div>
@@ -143,12 +143,12 @@ contentLanguage: en
     </div>
     <div class="timeline-end mb-10">
       <time>2021</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">E-Worker</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">E-Worker</div>
         Develop a system for manage work and task handling into each department. Pilot testing at a hotel in Krabi Province.
       </div>
-      <div class="timeline-box mt-4">
-          <div class="text-lg font-black kanit">E-Accom Version 2 <a
+      <div class="timeline-box text-base mt-4">
+          <div class="text-lg font-medium font-sans kanit">E-Accom Version 2 <a
             href="/en/project/eaccom"
             class="link link-neutral"
             style="color: gray; text-decoration: none"
@@ -156,8 +156,8 @@ contentLanguage: en
         Develop system for hotel management again using the experience from the first version,
         make it success and pilot testing at a hotel in Nakhon Si Thammarat.
       </div>
-      <div class="timeline-box mt-4">
-          <div class="text-lg font-black kanit">E-Manufac <a
+      <div class="timeline-box text-base mt-4">
+          <div class="text-lg font-medium font-sans kanit">E-Manufac <a
             href="/en/project/emanufac"
             class="link link-neutral"
             style="color: gray; text-decoration: none"
@@ -186,8 +186,8 @@ contentLanguage: en
     </div>
     <div class="timeline-start md:text-end mb-10">
       <time>2022</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">Start a Master's Course</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">Start a Master's Course</div>
         In Faculty of Engineering, Graduate School, Prince of Songkla University
       </div>
     </div>
@@ -211,12 +211,12 @@ contentLanguage: en
     </div>
     <div class="timeline-end mb-10">
       <time>2023</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">Resign from work</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">Resign from work</div>
         Resign as a full time software developer to focus on study and research in my master's degree
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">Research Thesis<a
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">Research Thesis<a
           href="/en/project/cost-estimation/"
           class="link link-neutral"
           style="color: gray; text-decoration: none"
@@ -245,18 +245,18 @@ contentLanguage: en
     </div>
     <div class="timeline-start md:text-end mb-10">
       <time>2024</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">E-Manufac with Crab Inventory Management </div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">E-Manufac with Crab Inventory Management </div>
        Add  some feature to E-Manufac to manage a manufacturng process  using the moving and transformation of material. 
         Together development with crab product factory in Suratthani.
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">ICGEC 2024 Conference </div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">ICGEC 2024 Conference </div>
        Present the paper titled Time Driven Cost Estimation Learning Model (TDCE) in 16th International Confernece on Genetic and Evolutionary Computing (ICGEC-2024),
         in Miyazaki, Japan.
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">Join Sakura Science Exchange Program</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">Join Sakura Science Exchange Program</div>
         Had an opportunity to join the JST Sakura Science Exchange Program in University of Miyazaki, Miyazaki, Japan.
       </div>
     </div>
@@ -280,21 +280,21 @@ contentLanguage: en
     </div>
     <div class="timeline-end mb-10">
       <time>2025</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">Thesis Defense Examination</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">Thesis Defense Examination</div>
         Defense Examination on Artificial Neural Network-like for Manufacturing Cost Estimation
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">Bluetooth Integrated Inventory Management System</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">Bluetooth Integrated Inventory Management System</div>
         Enchance the crab pasteurize production system with real-time inventory management system using Bluetooth weight scale,
          and add some feature for cost calculation.
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">Start a Research Student Life</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">Start a Research Student Life</div>
        Join a non-degree research student course in Graduate School of Engineering, University of Miyazaki, Japan.
       </div> 
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">Graduate from a Master's Course</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">Graduate from a Master's Course</div>
         Officially got a master degree from Faculty of Engineering, Prince of Songkla University.
       </div>
     </div>
@@ -318,16 +318,16 @@ contentLanguage: en
     </div>
     <div class="timeline-start md:text-end mb-10">
       <time>2026</time>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">Enter a Ph.D. Program</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">Enter a Ph.D. Program</div>
        Started the Ph.D. program at the Interdisciplinary Graduate School of Agriculture and Engineering, University of Miyazaki, Japan.
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">Cross Camera Cattle Tracking Research </div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">Cross Camera Cattle Tracking Research </div>
        Start research on cross-camera multi-object tracking for for dairy cattle behavior monitoring and calving prediction.
       </div>
-      <div class="timeline-box mt-4">
-        <div class="text-lg font-black kanit">GCCE 2026 Conference</div>
+      <div class="timeline-box text-base mt-4">
+        <div class="text-lg font-medium font-sans kanit">GCCE 2026 Conference</div>
         Present a research paper titled "Detection and Segmentation Model for Cattle Tracking: A Comparative Study of YOLOv8, YOLO11, and YOLO26" at the IEEE Global Conference on Consumer Electronics (GCCE) 2026 in Kobe, Japan.
       </div>
     </div>

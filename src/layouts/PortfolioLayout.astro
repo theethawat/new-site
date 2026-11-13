@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import ThemeToggle from "../components/ThemeToggle.astro";
+import Footer from "../components/Footer.astro";
 import { messages, type Locale } from "../data/i18n";
 
 interface Props {
@@ -23,6 +24,7 @@ const nav = [
   ["cv", t.cv],
   ["vcard", t.contact],
 ] as const;
+
 ---
 
 <!doctype html>
@@ -38,11 +40,27 @@ const nav = [
     <meta property="og:title" content={`${title} | Theethawat Savastham`} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={new URL(Astro.url.pathname, Astro.url.origin)} />
+    <style>
+      .site-logo-dark {
+        display: none;
+      }
+
+      :global(html[data-theme="dark"]) .site-logo-light {
+        display: none;
+      }
+
+      :global(html[data-theme="dark"]) .site-logo-dark {
+        display: block;
+      }
+    </style>
   </head>
   <body class="min-h-screen bg-base-100 text-base-content">
     <header class="border-b border-base-300">
       <div class="mx-auto max-w-6xl px-4 py-4 flex flex-wrap items-center justify-between gap-4">
-        <a href={`/${locale}/`} class="text-xl font-bold">Theethawat</a>
+        <a href={`/${locale}/`} aria-label="Theethawat Savastham home">
+          <img src="/img/logo.png" alt="" class="site-logo-light h-14" />
+          <img src="/img/logo-white.png" alt="" class="site-logo-dark h-14" />
+        </a>
         <div class="flex items-center gap-3">
           <nav aria-label="Language" class="join">
             <a class:list={["btn btn-sm join-item", { "btn-active": locale === "en" }]} href={`/en${path}`} lang="en" aria-current={locale === "en" ? "true" : undefined}>EN</a>
@@ -56,12 +74,6 @@ const nav = [
       </div>
     </header>
     <slot />
-    <footer class="border-t border-base-300 mt-16">
-      <div class="mx-auto max-w-6xl px-4 py-8 flex flex-wrap gap-x-5 gap-y-2 text-sm">
-        <a class="link link-hover" href={`/${locale}/personal-life`}>{t.personal}</a>
-        <a class="link link-hover" href={`/${locale}/event`}>{t.events}</a>
-        <a class="link link-hover" href="mailto:theethawat.s@outlook.co.th">theethawat.s@outlook.co.th</a>
-      </div>
-    </footer>
+    <Footer />
   </body>
 </html>

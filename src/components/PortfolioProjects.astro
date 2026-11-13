@@ -36,7 +36,7 @@ const localDetails = new Set(["ehealth", "cost-estimation", "eaccom", "emanufac"
           {project.year && <div class="badge badge-outline">{project.year}</div>}
           <p lang={descriptionIsThai ? "th" : locale}>{text.description}</p>
           {descriptionIsThai && <p class="text-sm text-base-content/70">{t.original}</p>}
-          {project.language && <div class="flex flex-wrap gap-1">{project.language.map((skill) => <span class="badge badge-ghost">{skill}</span>)}</div>}
+          {project.language && <div class="flex flex-wrap gap-1">{project.language.map((skill) => <span class="badge badge-soft badge-secondary">{skill}</span>)}</div>}
           {href && <div class="card-actions mt-2"><a class="btn btn-primary btn-sm" href={href}>{t.readMore}</a></div>}
         </div>
       </article>
