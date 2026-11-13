@@ -1,0 +1,346 @@
+---
+title: ประวัติการทำงาน
+subtitle: Working Timeline
+contentLanguage: th
+---
+
+
+<!-- Keep this HTML block contiguous so Markdown does not treat its contents as code. -->
+<ul
+  class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical"
+>
+  <li>
+    <div class="timeline-middle">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        class="h-5 w-5"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="timeline-start md:text-end mb-10">
+      <time>2016 / 2559</time>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">เข้าศึกษา</div>
+        เข้าศึกษาระดับปริญญาตรี <br />
+        ณ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์
+      </div>
+    </div>
+    <hr />
+  </li>
+  <li>
+    <hr />
+    <div class="timeline-middle">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        class="h-5 w-5"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="timeline-end mb-10">
+      <time>2019 / 2562</time>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">
+          ฝึกงาน ณ เขื่อนวชิราลงกรณ จังหวัดกาญจนบุรี   <a class="link link-neutral" style="color: gray; text-decoration: none"
+          href="/th/project/internship/">
+            รายละเอียดโครงการ 
+          </a>
+        </div>
+        ฝึกงานร่วมกับฝ่ายงานดิจิทัล
+        ได้ร่วมพัฒนาระบบเพื่อใช้ในการกรอกข้อมูลรับสมัครงานปั่นจักรยานของเขื่อนวชิราลงกรณ
+      </div>
+      <div class="timeline-box mt-4">
+          <div class="text-lg font-black kanit">โครงงาน
+            <a
+            href="/th/project/ehealth/"
+            class="link link-neutral"
+            style="color: gray; text-decoration: none"
+          >  รายละเอียดโครงการ  </a>
+          </div>
+        ศึกษาและพัฒนาโครงงาน E-health for personal sensor application ร่วมกับ
+        Centre for Network Research สาขาวิชาวิศวกรรมคอมพิวเตอร์
+      </div>
+    </div>
+    <hr />
+  </li>
+  <li>
+    <hr />
+    <div class="timeline-middle">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        class="h-5 w-5"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="timeline-start md:text-end mb-10">
+      <time>2020 / 2563</time>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit"> เริ่มทำงาน</div>
+        เป็นนักพัฒนาโปรแกรมที่ศูนย์วิจัยระบบอัตโนมัติอัจฉริยะ คณะวิศวกรรมศาสตร์
+      </div>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">ระบบ E-OnlineShop Version 1</div>
+        ร่วมกับทีมในศูนย์วิจัยพัฒนาระบบ E-OnlineShop เพื่อเป็นระบบ E-Commerce
+        สำหรับร้านค้าระดับ SMEs โดยทดลองใช้ในร้านค้าแห่งหนึ่ง ใน จ.พัทลุง
+        ก่อนที่ทางศูนย์วิจัยจะมีการพัฒนาต่อไปเป็นระบบ Version 2 ในชื่อ
+        E-Merchant ในปี 2022
+      </div>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">ระบบ E-Accom Version 1</div>
+        พัฒนาระบบจัดการโรงแรม และจองห้องออนไลน์เบื้องต้น
+        โดยเริ่มพัฒนากับโรงแรมในจังหวัดสุราษฎร์ธานี และ พัทลุง
+        โดยโครงการนี้พัฒนาไม่สำเร็จ
+      </div>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit"> พัฒนาระบบแดชบอร์ดสำหรับ IoT ใน E-IotSoft<a
+          href="/th/project/eiotsoft/"
+          class="link link-neutral"
+          style="color: gray; text-decoration: none"
+        >  รายละเอียดโครงการ  </a></div>
+        ร่วมกับศูนย์วิจัยพัฒนาระบบสำหรับ Monitor และ Control
+        ระบบน้ำประปาหมู่บ้านใน อ. จะนะ จ. สงขลา ซึ่งจะเป็นจุดเริ่มต้นของระบบ
+        E-IoTSoft และศูนย์วิจัยได้นำไปพัฒนาต่อเป็นระบบ E-Machine ในปี 2022
+      </div>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">จบการศึกษา</div>
+        ระดับปริญญาตรี จากคณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์
+      </div>
+    </div>
+    <hr />
+  </li>
+  <li>
+    <hr />
+    <div class="timeline-middle">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        class="h-5 w-5"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="timeline-end mb-10">
+      <time>2021 / 2564</time>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">ระบบ E-Worker</div>
+        พัฒนาระบบสำหรับบริหารจัดการงาน และ ส่งต่องานไปยังแต่ละแผนก
+        โดยได้ทดลองใช้กับโรงแรมในจังหวัดกระบี่
+      </div>
+      <div class="timeline-box mt-4">
+          <div class="text-lg font-black kanit">ระบบ E-Accom Version 2 <a
+            href="/th/project/eaccom/"
+            class="link link-neutral"
+            style="color: gray; text-decoration: none"
+          >  รายละเอียดโครงการ  </a></div>
+        ร่วมกับศูนย์วิจัยพัฒนาระบบจัดการโรงแรมอีกครั้งหนึ้ง
+        โดยใช้ประสบการณ์ที่มีมา ทำให้ระบบสามารถประสบความสำเร็จ
+        และทดลองใช้กับโรงแรมแห่งหนึ่งในจังหวัดนครศรีธรรมราช
+      </div>
+      <div class="timeline-box mt-4">
+          <div class="text-lg font-black kanit">ระบบ E-Manufac<a
+            href="/th/project/emanufac/"
+            class="link link-neutral"
+            style="color: gray; text-decoration: none"
+          >  รายละเอียดโครงการ  </a></div>
+        ร่วมกับศูนย์วิจัยพัฒนาระบบติดตามการผลิต E-Manufac
+        เป็นระบบที่ครอบคลุมตั้งแต่คลังวัตถุดิบ ไปจนการส่งงานต่างๆ
+        ในกระบวนการผลิต โดยทดลองใช้ในโรงงานสองแห่ง ในอำเภอหาดใหญ่ จังหวัดสงขลา
+        และหลังจากนั้นก็เป็นผู้รับผิดชอบหลักของระบบ E-Manufac
+        เรื่อยมาจนออกจากงาน
+      </div>
+    </div>
+    <hr />
+  </li>
+  <li>
+    <hr />
+    <div class="timeline-middle">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        class="h-5 w-5"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="timeline-start md:text-end mb-10">
+      <time>2022 / 2565</time>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">เข้าศึกษาระดับปริญญาโท</div>
+        ในคณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์
+      </div>
+    </div>
+    <hr />
+  </li>
+  <li>
+    <hr />
+    <div class="timeline-middle">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        class="h-5 w-5"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="timeline-end mb-10">
+      <time>2023 / 2566</time>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">ออกจากงาน</div>
+       ในฐานะพนักงานเต็มเวลา เพื่อทุ่มเทให้การศึกษา และการทำวิจัยในการเรียนปริญญาโท
+      </div>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">งานวิจัย <a
+          href="/th/project/cost-estimation/"
+          class="link link-neutral"
+          style="color: gray; text-decoration: none"
+        >  รายละเอียดโครงการ  </a></div>
+       ในเรื่อง Artificial Neural Network-like for Manufacturing Cost Estimation 
+       คำนวณต้นทุนการผลิต
+        จากวัตถุดิบและเวลาในการดำเนินงาน โดยใช้ Machine Learning
+        มาช่วยในการทำนาย
+      </div>
+    </div>
+    <hr />
+  </li><li>
+    <hr />
+    <div class="timeline-middle">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        class="h-5 w-5"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="timeline-start md:text-end mb-10">
+      <time>2024 / 2567</time>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">ระบบ E-Manufac กับการจัดการวัตถุดิเกี่ยวกับปู</div>
+        เพิ่มฟีเจอร์ในระยย E-Manufac ให้จัดการกระบวนการของการผลิต โดยดำเนินการไปตามการเคลื่อนไหวและแปรสภาพของวัตถุดิบ
+        พัฒนาร่วมกันกับโรงงานผลิตปูในจังหวัดสุราษฎร์ธานี
+      </div>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">ICGEC 2024 Conference </div>
+        นำเสนอบทความ Time Driven Cost Estimation Learning Model (TDCE) ในการประชุมวิชาการ 
+        16th International Confernece on Genetic and Evolutionary Computing (ICGEC-2024)
+        จัดขึ้นที่จังหวัดมิยาซากิ ประเทศญี่ปุ่น
+      </div>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">ร่วมกิจกรรม Sakura Science Exchange Program</div>
+        ได้มีรับโอกาสให้เข้าร่วมกิจกรรมแลกเปลี่ยน JST Sakura Science Exchange Program ณ University of Miyazaki จังหวัดมิยาซากิ ประเทศญี่ปุ่น
+      </div>
+    </div>
+    <hr />
+  </li>
+  <li>
+    <hr />
+    <div class="timeline-middle">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        class="h-5 w-5"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="timeline-end mb-10">
+      <time>2025 / 2568</time>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">สอบปกป้องวิทยานิพนธ์</div>
+        สอบปกป้องวิทยานิพนธ์ในหัวข้อ โครงสร้างเสมือนระบบประสาทเทียมสำหรับการประมาณต้นทุนการผลิต
+      </div>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">พัฒนาระบบจัดการคลังวัตถุดิบด้วยเครื่องชั่ง Bluetooth</div>
+        ต่อยอดแนวคิดการพัฒนาระบบสำหรับการผลิตปูพาสเจอร์ไรส์ ให้มีความ Real-time มากขึ้น โดยใช้เครื่องชั่งน้ำหนักแบบ Bluetooth ส่งตรงเข้ามายังระบบ
+        และเพิ่มเติมด้วยระบบคำนวณต้นทุนต่าง ๆ
+      </div>
+   <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">เริ่มการเป็นนักศึกษาวิจัย</div>
+        เริ่มต้นการเป็นนักศึกษาวิจัย ในคณะวิศวกรรมศาสตร์ มหาวิทยาลัยมิยาซากิ ประเทศญี่ปุ่น
+      </div>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">จบการศึกษาระดับปริญญาโท</div>
+       จบการศึกษาระดับปริญญาโท จากคณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์ อย่างเป็นทางการ 
+      </div>
+    </div>
+    <hr />
+  </li>
+    <li>
+    <hr />
+    <div class="timeline-middle">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        class="h-5 w-5"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div class="timeline-start md:text-end mb-10">
+      <time>2026 / 2569</time>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">เข้าศึกษาต่อระดับปริญญาเอก</div>
+       เริ่มต้นการศึกษาระดับปริญญาเอกที่ Interdisciplinary Graduate School of Agriculture and Engineering มหาวิทยาลัยมิยาซากิ ประเทศญี่ปุ่น
+      </div>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit"> งานวิจัยการติดตามพฤติกรรมของโคนมภายใต้กล้องมากกว่าหนึ่งตัว</div>
+       เริ่มต้นการวิจัยเกี่ยวกับการติดตามวัตถุหลายตัวภายใต้กล้องมากกว่าหนึ่งตัว (Cross-camera Multi-Object Tracking) สำหรับการติดตามพฤติกรรมของโคนมที่กำลังตั้งท้องและการทำนายการคลอด
+      </div>
+      <div class="timeline-box mt-4">
+        <div class="text-lg font-black kanit">GCCE 2026 Conference</div>
+        นำเสนอผลงานวิจัยเรื่อง "Detection and Segmentation Model for Cattle Tracking: A Comparative Study of YOLOv8, YOLO11, and YOLO26" ในงานประชุม IEEE Global Conference on Consumer Electronics (GCCE) 2026 ที่เมืองโกเบ ประเทศญี่ปุ่น
+      </div>
+    </div>
+    <hr />
+  </li>
+</ul>

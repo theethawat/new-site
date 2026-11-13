@@ -1,0 +1,132 @@
+---
+title: Personal Life
+subtitle: ชีวิตส่วนตัว
+contentLanguage: en
+---
+
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full mt-4">
+  <div class="card bg-base-100 shadow-md">
+    <figure>
+      <img
+        class="h-48"
+        src="/img/menulist/collectible.jpg"
+        alt="Collectibles"
+      />
+    </figure>
+    <div class="card-body flex flex-row justify-between">
+      <div class="card-title kanit">
+        <a
+          style="text-decoration: none; color: black"
+          href="https://gallery.theduckcreator.in.th"
+        >
+          Collectibles <br />
+          ของสะสม</a
+        >
+      </div>
+      <div class="card-actions">
+        <a
+          href="https://gallery.theduckcreator.in.th"
+          class="btn btn-primary"
+          style="color: white; text-decoration: none"
+          >Visit</a
+        >
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-base-100 shadow-md">
+    <figure>
+      <img class="h-48" src="/img/menulist/cat.jpg" alt="Cats" />
+    </figure>
+    <div class="card-body flex flex-row justify-between">
+      <div class="card-title kanit">
+        <a
+          style="text-decoration: none; color: black"
+          href="https://cat.theethawat.dev"
+        >
+          Cats <br />
+          แมว</a
+        >
+      </div>
+      <div class="card-actions">
+        <a
+          href="https://cat.theethawat.dev"
+          class="btn btn-primary"
+          style="color: white; text-decoration: none"
+          >Visit</a
+        >
+      </div>
+    </div>
+  </div>
+  <!-- <div class="card bg-base-100 shadow-md">
+    <figure>
+      <img
+        class="h-48"
+        src="/img/menulist/personal-gallery.jpg"
+        alt="Personal Gallery"
+      />
+    </figure>
+    <div class="card-body flex flex-row justify-between">
+      <div class="card-title kanit">
+        <a style="text-decoration: none; color: black" href="#">
+          Personal Gallery <br />
+          แกลอรี่ส่วนตัว</a
+        >
+      </div>
+      <div class="card-actions">
+        <a
+          href="#"
+          class="btn btn-primary"
+          style="color: white; text-decoration: none"
+          >Visit</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="card bg-base-100 shadow-md">
+    <figure>
+      <img class="h-48" src="/img/menulist/loved.jpg" alt="Do What I Love" />
+    </figure>
+    <div class="card-body flex flex-row justify-between">
+      <div class="card-title kanit">
+        <a style="text-decoration: none; color: black" href="#">
+          Do What I Love <br />
+          ความชื่่นชอบ</a
+        >
+      </div>
+      <div class="card-actions">
+        <a
+          href="#"
+          class="btn btn-primary"
+          style="color: white; text-decoration: none"
+          >Visit</a
+        >
+      </div>
+    </div>
+  </div> -->
+  <div class="card bg-base-100 shadow-md">
+    <figure>
+      <img class="h-48" src="/img/menulist/personal-blog.jpg" alt="Blogs" />
+    </figure>
+    <div class="card-body flex flex-row justify-between">
+      <div class="card-title kanit">
+        <a
+          style="text-decoration: none; color: black"
+          href="https://blog.theethawat.dev"
+        >
+          Personal Blogs <br />
+          บล็อกส่วนตัว</a
+        >
+      </div>
+      <div class="card-actions">
+        <a
+          href="https://blog.theethawat.dev"
+          class="btn btn-primary"
+          style="color: white; text-decoration: none"
+          >Visit</a
+        >
+      </div>
+    </div>
+  </div>
+</div>

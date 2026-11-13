@@ -216,6 +216,16 @@ const contact = defineCollection({
   }),
 });
 
+const site = defineCollection({
+  loader: glob({ pattern: "**/*.md", base: "./src/content/site" }),
+  schema: z.object({
+    title: z.string(),
+    subtitle: z.string().optional(),
+    contentLanguage: z.enum(["en", "th"]),
+    date: z.coerce.date().optional(),
+  }),
+});
+
 export const collections = {
   hero,
   work,
@@ -227,4 +237,5 @@ export const collections = {
   about,
   general,
   contact,
+  site,
 };

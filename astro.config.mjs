@@ -12,6 +12,12 @@ import vercel from "@astrojs/vercel";
 export default defineConfig({
   integrations: [react(), markdoc(), keystatic()],
 
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "th"],
+    routing: "manual",
+  },
+
   vite: {
     plugins: [tailwindcss()],
     optimizeDeps: {

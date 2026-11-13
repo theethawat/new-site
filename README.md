@@ -1,3 +1,32 @@
+# Theethawat's portfolio
+
+The public portfolio uses English (`/en/`) and Thai (`/th/`); `/` redirects to
+English. Astro's i18n configuration uses manual routing so localized pages and
+the Keystatic admin can coexist. Middleware redirects the template's
+unprefixed blog and project URLs to their English equivalents.
+
+The migrated pages and articles are Markdown files in `src/content/site/en` and
+`src/content/site/th`. Their `contentLanguage` identifies the language actually
+used by the text. If a translation is missing, the site displays the available
+original with a notice. Edit these files directly: they are not currently
+exposed in Keystatic. Project summaries are in `src/data/portfolio.json`, and
+interface labels and homepage introductions are in `src/data/i18n.ts`.
+The original Bloomfolio content collections and Keystatic editor remain in the
+repository, but they do not supply the public portfolio pages.
+
+To check timeline rendering, start the development server and run
+`node --test tests/timeline.test.mjs`. Set `TEST_BASE_URL` if the server is not
+using `http://localhost:4321`.
+
+The migrated CV and contact card contain historical information; review them
+before publishing. Local media and downloads are under `public/img` and
+`public/file`.
+
+---
+
+The original Bloomfolio template documentation follows. Its feature descriptions
+refer to the template, not necessarily to the migrated public pages.
+
 # 🌻 Bloomfolio
 
 <div align="center">

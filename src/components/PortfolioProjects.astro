@@ -1,0 +1,45 @@
+---
+import projectsData from "../data/portfolio.json";
+import { messages, type Locale } from "../data/i18n";
+
+interface Project {
+  translation: Record<Locale, { name: string; subtitle?: string; description: string }>;
+  link?: string;
+  image?: string;
+  year?: string | number;
+  language?: string[];
+}
+interface Props {
+  locale: Locale;
+  limit?: number;
+}
+const { locale, limit } = Astro.props;
+const projects: Project[] = projectsData;
+const visible = limit ? projects.slice(0, limit) : projects;
+const t = messages[locale];
+const localDetails = new Set(["ehealth", "cost-estimation", "eaccom", "emanufac", "eiotsoft", "internship", "esalesman"]);
+---
+
+<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+  {visible.map((project) => {
+    const text = project.translation[locale];
+    const descriptionIsThai = locale === "en" && /[\u0E00-\u0E7F]/.test(text.description);
+    const href = project.link?.startsWith("https://")
+      ? project.link
+      : project.link && localDetails.has(project.link) ? `/${locale}/project/${project.link}` : undefined;
+    return (
+      <article class="card bg-base-200 shadow-sm overflow-hidden">
+        {project.image && <figure><img src={project.image} alt="" loading="lazy" class="h-48 w-full object-cover" /></figure>}
+        <div class="card-body">
+          <h3 class="card-title">{text.name}</h3>
+          {text.subtitle && <p class="text-sm text-base-content/70">{text.subtitle}</p>}
+          {project.year && <div class="badge badge-outline">{project.year}</div>}
+          <p lang={descriptionIsThai ? "th" : locale}>{text.description}</p>
+          {descriptionIsThai && <p class="text-sm text-base-content/70">{t.original}</p>}
+          {project.language && <div class="flex flex-wrap gap-1">{project.language.map((skill) => <span class="badge badge-ghost">{skill}</span>)}</div>}
+          {href && <div class="card-actions mt-2"><a class="btn btn-primary btn-sm" href={href}>{t.readMore}</a></div>}
+        </div>
+      </article>
+    );
+  })}
+</div>
