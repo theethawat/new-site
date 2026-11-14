@@ -4,7 +4,6 @@ subtitle: Theethawat Study and Working Experience
 contentLanguage: en
 ---
 
-
 <!-- Keep this HTML block contiguous so Markdown does not treat its contents as code. -->
 <ul
   class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical"
@@ -333,5 +332,5 @@ contentLanguage: en
     </div>
     <hr />
   </li>
-  
+
 </ul>

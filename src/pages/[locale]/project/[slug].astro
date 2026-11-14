@@ -1,0 +1,42 @@
+---
+import { getEntry, render } from "astro:content";
+import ProjectLayout from "../../../layouts/ProjectLayout.astro";
+import { isLocale } from "../../../data/i18n";
+import projects from "../../../data/portfolio.json";
+import { resolveContentSidebar } from "../../../utils/contentSidebar";
+
+const { locale, slug } = Astro.params;
+if (!isLocale(locale) || !slug) return Astro.redirect("/404");
+
+const requested = await getEntry("site", `${locale}/project/${slug}`);
+const alternate = await getEntry(
+  "site",
+  `${locale === "en" ? "th" : "en"}/project/${slug}`,
+);
+const entry = requested ?? alternate;
+if (!entry) return new Response("Not found", { status: 404 });
+
+const { Content, headings } = await render(entry);
+const project = projects.find((item) => item.link === slug);
+const general = await getEntry("general", "index");
+const alternateLocales = [
+  ...new Set(
+    [requested?.data.contentLanguage, alternate?.data.contentLanguage].filter(isLocale),
+  ),
+];
+---
+
+<ProjectLayout
+  locale={locale}
+  title={entry.data.title}
+  description={entry.data.subtitle}
+  contentLanguage={entry.data.contentLanguage}
+  alternateLocales={alternateLocales}
+  image={project?.image}
+  period={project?.year?.toString()}
+  skills={project?.language}
+  headings={headings}
+  contentSidebar={resolveContentSidebar(general?.data, undefined)}
+>
+  <Content />
+</ProjectLayout>

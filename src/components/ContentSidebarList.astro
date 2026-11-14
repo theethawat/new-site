@@ -1,11 +1,13 @@
 ---
 import type { MarkdownHeading } from "astro";
 import { ChevronRight } from "@lucide/astro";
+import { messages, type Locale } from "../data/i18n";
 
 interface Props {
   headings: MarkdownHeading[];
   idPrefix: string;
   variant: "mobile" | "desktop";
+  locale?: Locale;
 }
 
 interface OutlineItem {
@@ -13,7 +15,8 @@ interface OutlineItem {
   children: MarkdownHeading[];
 }
 
-const { headings, idPrefix, variant } = Astro.props;
+const { headings, idPrefix, variant, locale = "en" } = Astro.props;
+const t = messages[locale];
 const items: OutlineItem[] = [];
 let currentH2: OutlineItem | undefined;
 
@@ -62,7 +65,7 @@ for (const heading of headings) {
               class="content-sidebar-sublevel-toggle mt-0.5 inline-flex size-7 shrink-0 items-center justify-center rounded-md text-base-content/50 transition-colors hover:bg-base-200 hover:text-base-content focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
               aria-expanded="false"
               aria-controls={sublevelId}
-              aria-label={`Show sections under ${heading.text}`}
+              aria-label={`${t.showSectionsUnder} ${heading.text}`}
               data-content-sidebar-toggle
             >
               <ChevronRight

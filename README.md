@@ -11,6 +11,8 @@ used by the text. If a translation is missing, the site displays the available
 original with a notice. Edit these files directly: they are not currently
 exposed in Keystatic. Project summaries are in `src/data/portfolio.json`, and
 interface labels and homepage introductions are in `src/data/i18n.ts`.
+Localized individual project pages use `src/layouts/ProjectLayout.astro`, with
+project images, years, and skills drawn from the matching portfolio summary.
 The original Bloomfolio content collections and Keystatic editor remain in the
 repository, but they do not supply the public portfolio pages.
 

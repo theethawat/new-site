@@ -20,11 +20,10 @@ const posts = (await getCollection("site", ({ id }) => id.startsWith("th/blog/po
           <h1 class="text-4xl font-display lg:text-5xl font-bold">{locale === "en" ? "Theethawat Savastham" : "ธีร์ธวัช สวาสดิ์ธรรม"}</h1>         
            <h1 class="text-3xl font-display lg:text-4xl font-bold color-neutral-content my-2">{locale === "th" ? "Theethawat Savastham" : "ธีร์ธวัช สวาสดิ์ธรรม"}</h1>
           <p class="mt-4 text-xl font-medium text-primary">{t.role}</p>
-          <p class="mt-5 leading-relaxed">{t.introduction}</p>
+          <p class="mt-5 leading-relaxed article-prose prose ">{t.introduction}</p>
           <div class="mt-6 flex flex-wrap gap-3">
             <a href={`/${locale}/about`} class="btn btn-primary">{t.biography}</a>
-            <a href={`/${locale}/cv`} class="btn btn-outline">{t.cv}</a>
-            <a href={`/${locale}/vcard`} class="btn btn-ghost">{t.contact}</a>
+            <a href={`/${locale}/timeline`} class="btn btn-secondary">{t.viewTimeline}</a>
           </div>
         </div>
       </div>

@@ -95,9 +95,6 @@ The name should be the same as the theme name below.
   --noise: 0;
 }
 
-@theme {
-  --font-sans: "Kanit", sans-serif; 
-}
 
 h1, h2 {
   font-family: "Kanit", sans-serif;
@@ -107,4 +104,8 @@ h1, h2 {
 .font-display {
   font-family: "Fira Code","Kanit", sans-serif;
   font-weight: 500;
+}
+
+.kanit {
+  font-family: "Kanit", sans-serif;
 }

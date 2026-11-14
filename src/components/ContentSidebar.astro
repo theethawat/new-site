@@ -3,23 +3,26 @@ import type { MarkdownHeading } from "astro";
 import type { ContentSidebarPosition } from "../utils/contentSidebar";
 import { ChevronDown, ListTree } from "@lucide/astro";
 import ContentSidebarList from "./ContentSidebarList.astro";
+import { messages, type Locale } from "../data/i18n";
 
 interface Props {
   headings: MarkdownHeading[];
   position: ContentSidebarPosition;
+  locale?: Locale;
 }
 
-const { headings, position } = Astro.props;
+const { headings, position, locale = "en" } = Astro.props;
+const t = messages[locale];
 ---
 
-<div class="content-sidebar-shell" data-content-sidebar>
+<div class="content-sidebar-shell" data-content-sidebar data-show-sections={t.showSectionsUnder} data-hide-sections={t.hideSectionsUnder}>
   <details class="content-sidebar-mobile lg:hidden">
     <summary
       class="flex cursor-pointer list-none items-center justify-between gap-3 border-y border-base-300 py-3 font-semibold [&::-webkit-details-marker]:hidden"
     >
       <span class="flex items-center gap-2">
         <ListTree class="size-4" aria-hidden="true" />
-        On this page
+        {t.onThisPage}
       </span>
       <ChevronDown
         class="content-sidebar-chevron size-4 transition-transform duration-200"
@@ -27,13 +30,14 @@ const { headings, position } = Astro.props;
       />
     </summary>
     <nav
-      aria-label="On this page"
+      aria-label={t.onThisPage}
       class="content-sidebar-scroll mt-3 max-h-72 overflow-y-auto overscroll-contain"
     >
       <ContentSidebarList
         headings={headings}
         idPrefix="content-sidebar-mobile"
         variant="mobile"
+        locale={locale}
       />
     </nav>
   </details>
@@ -48,13 +52,14 @@ const { headings, position } = Astro.props;
   >
     <div class="mb-3 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-base-content/50">
       <ListTree class="size-4" aria-hidden="true" />
-      On this page
+      {t.onThisPage}
     </div>
-    <nav aria-label="On this page">
+    <nav aria-label={t.onThisPage}>
       <ContentSidebarList
         headings={headings}
         idPrefix="content-sidebar-desktop"
         variant="desktop"
+        locale={locale}
       />
     </nav>
   </aside>
@@ -93,7 +98,7 @@ const { headings, position } = Astro.props;
         toggle.setAttribute("aria-expanded", String(expanded));
         toggle.setAttribute(
           "aria-label",
-          `${expanded ? "Hide" : "Show"} sections under ${
+          `${expanded ? shell.dataset.hideSections : shell.dataset.showSections} ${
             toggle.closest("[data-content-sidebar-group]")
               ?.querySelector<HTMLAnchorElement>("[data-has-sublevel]")
               ?.textContent?.trim() ?? "this heading"
@@ -172,6 +177,7 @@ const { headings, position } = Astro.props;
     });
   }
 
+  initContentSidebar();
   document.addEventListener("astro:page-load", initContentSidebar);
 </script>
 
