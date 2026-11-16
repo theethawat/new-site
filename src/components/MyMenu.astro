@@ -1,0 +1,86 @@
+---
+import { messages, type Locale } from "../data/i18n";
+import { ArrowRight } from "@lucide/astro";
+
+interface MyMenu {
+  translation: Record<Locale, { name: string; subtitle?: string; description?: string }>;
+  link?: string;
+  image?: string;
+}
+interface Props {
+  locale: Locale;
+  limit?: number;
+}
+
+const menuData: MyMenu[] = [
+  {
+    translation: {
+      en: { name: "Gallery", subtitle: "A collection of my activity photos" },
+      th: { name: "แกลเลอรี",subtitle: "ภาพกิจกรรมต่างๆ ของผม" }
+    },
+    link: "https://gallery.theethawat.dev",
+    image: "/img/menulist/gallery.jpg"
+  },
+  {
+    translation: {
+      en: { name: "Blog", subtitle: "My personal view on tech and various topics" },
+      th: { name: "บล็อก", subtitle: "มุมมองของผมเกี่ยวกับเทคโนโลยี ชีวิต และเรื่องต่างๆ" }
+    },
+    link: "https://blog.theethawat.dev",
+    image: "/img/menulist/personal-blog.jpg"
+  },{
+    translation: {
+      en: { name: "Creative Work", subtitle: "A showcase of my creative projects" },
+      th: { name: "งานสร้างสรรค์", subtitle: "รวมผลงานออกแบบ และ สร้างสรรค์ของผม" }
+    },
+    link: "creative",
+    image: "/img/menulist/creative.jpg"
+  },{
+    translation: {
+      en: { name: "Personal Life" , subtitle: "Insights into my personal life" },
+      th: { name: "ชีวิตส่วนตัว", subtitle: "เรื่องราวเกี่ยวกับชีวิตส่วนตัวของผม" }
+    },
+    link: "personal-life",
+    image: "/img/menulist/personal.jpg"
+  }
+];
+const { locale, limit } = Astro.props;
+const projects: MyMenu[] = menuData;
+const visible = limit ? projects.slice(0, limit) : projects;
+const t = messages[locale];
+const localPages = new Set(["personal-life"]);
+---
+
+<div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+  {visible.map((menu) => {
+    const text = menu.translation[locale];
+    const isExternal = menu.link?.startsWith("https://") ?? false;
+    const href = isExternal
+      ? menu.link
+      : menu.link && localPages.has(menu.link) ? `/${locale}/${menu.link}` : undefined;
+    const cardClass = `card image-full group h-52 overflow-hidden rounded-box border border-base-content/10 shadow-sm transition duration-300 ${
+      href ? "cursor-pointer hover:-translate-y-1 hover:shadow-xl" : "cursor-default"
+    }`;
+    return (
+      <a class={cardClass} href={href} aria-disabled={!href}>
+        <figure>
+          <img
+            src={menu.image}
+            alt=""
+            loading="lazy"
+            class={`h-full w-full object-cover transition-transform duration-500 ${
+              href ? "group-hover:scale-105" : ""
+            }`}
+          />
+        </figure>
+        <div class="card-body justify-end gap-1 bg-linear-to-t from-base-300/50 via-base-300/10 to-transparent p-5">
+          <div class="flex items-center justify-between gap-3">
+            <h3 class="card-title text-xl font-medium text-neutral-content kanit">{text.name}</h3>
+            {href && <ArrowRight class="size-5 shrink-0 text-neutral-content transition-transform group-hover:translate-x-1" aria-hidden="true" />}
+          </div>
+          {text.subtitle && <p class="text-sm text-neutral-content/80 kanit">{text.subtitle}</p>}
+        </div>
+      </a>
+    );
+  })}
+</div>

@@ -1,6 +1,7 @@
 ---
 import PortfolioLayout from "../../layouts/PortfolioLayout.astro";
 import PortfolioProjects from "../../components/PortfolioProjects.astro";
+import MyMenu from "../../components/MyMenu.astro";
 import { getCollection } from "astro:content";
 import { isLocale, messages } from "../../data/i18n";
 
@@ -34,6 +35,12 @@ const posts = (await getCollection("site", ({ id }) => id.startsWith("th/blog/po
         <a class="link link-primary" href={`/${locale}/project`}>{t.allProjects} →</a>
       </div>
       <PortfolioProjects locale={locale} limit={3} />
+    </section>
+      <section class="py-12">
+      <div class="flex flex-wrap justify-between items-center gap-3 mb-6">
+        <h2 class="text-3xl font-bold">{t.exploreMe}</h2>
+      </div>
+      <MyMenu locale={locale} limit={4  } />
     </section>
    
   </main>

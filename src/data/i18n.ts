@@ -46,6 +46,7 @@ export const messages = {
     siteDescription: "Portfolio and research of Theethawat Savastham",
     advisor: "Advisor",
     organization: "Organization",
+    exploreMe: "Get Closer with Me",
   },
   th: {
     home: "หน้าแรก",
@@ -85,5 +86,6 @@ export const messages = {
     siteDescription: "แฟ้มผลงานและงานวิจัยของธีร์ธวัช สวาสดิ์ธรรม",
     advisor: "ที่ปรึกษา",
     organization: "องค์กร",
+    exploreMe: "รู้จักกันให้มากขึ้น",
   },
 } satisfies Record<Locale, Record<string, string>>;
