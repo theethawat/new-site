@@ -4,7 +4,6 @@ subtitle: Virtual Contact Card
 contentLanguage: en
 ---
 
-
 <div class="flex justify-center px-4">
   <div class="card bg-base-100 w-96 shadow-xl">
     <figure>
@@ -14,15 +13,16 @@ contentLanguage: en
 </div>
 
 <div class="my-2">
-  <h2 class="text-2xl py-2 text-center">Theethawat Savastham (Tin)</h2>
-  <h4 class="text-accent text-xl py-0 text-center">
+  <h2 class="text-2xl pt-2 text-center">Theethawat Savastham (Tin)</h2>
+  <h4 class="text-primary kanit text-xl py-0 text-center">
     ธีร์ธวัช สวาสดิ์ธรรม (ติน)
+  </h4>  <h4 class="text-xl py-0 text-center">
+  サワットタム　テイラタワット　「ティン」
   </h4>
   <div class="flex justify-center">
     <p class="text-center w-full md:w-1/2 my-2 px-4">
-      Master Degree Student <br />Intelligent Automation Engineering Center &
-      Department of Computer Engineering <br />
-      Prince of Songkla University
+      Ph.D. Student <br /> Interdisciplinary Graduate School of Agriculture and Engineering <br />
+      University of Miyazaki, Japan
     </p>
   </div>
 </div>
@@ -33,29 +33,12 @@ contentLanguage: en
         <div class="flex">
           <div class="w-3/4">
             <h2 class="font-semibold text-base">อีเมล / Email</h2>
-            <p>theethawat.s@outlook.co.th, 6510120026@email.psu.ac.th</p>
+            <p>theethawat.s@outlook.co.th, nc26009@student.miyazaki-u.ac.jp</p>
           </div>
           <div class="w-1/4 flex items-center justify-end">
             <a href="mailto:theethawat.s@outlook.co.th" class="btn btn-accent">
               Email
             </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card card-side bg-base-100 shadow-lg">
-      <div class="card-body py-2">
-        <div class="flex items-center">
-          <div class="w-3/4">
-            <h2 class="font-semibold text-base">VCard</h2>
-            <p>
-              Save as a Mobile Phone Contact
-              <br />เพิ่มรายชื่อไปยังโทรศัพท์ของคุณ
-            </p>
-          </div>
-          <div class="w-1/4 flex items-center justify-end gap-1">
-            <a href="/file/thaivcard.vcf" class="btn btn-accent"> TH </a>
-            <a href="/file/engvcard.vcf" class="btn btn-accent"> EN </a>
           </div>
         </div>
       </div>

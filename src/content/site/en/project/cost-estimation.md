@@ -2,15 +2,11 @@
 title: ANN-Like for Manufacturing Cost Estimation
 subtitle: Master Degree Research
 contentLanguage: en
+sourceLink: https://github.com/IARC-Programing/time-driven-cost-estimation-lm
+organization: Intelligent Automation Engineering Center and Department of Computer Engineering, Prince of Songkla University
+projectType: Master's Degree Research Thesis
+adviser: Assist. Prof. Dr. Nikom Suvonvorn
 ---
-
-
-## Project Info
-
-- **Project Type** : Master's Degree Research Thesis
-- **Year** : 2023 - 2025
-- **Advisor**: Assist. Prof. Dr. Nikom Suvonvorn
-- **Working With**: Intelligent Automation Engineering Center and Department of Computer Engineering, Prince of Songkla University
 
 ## Abstract
 
@@ -28,7 +24,7 @@ Savastham, T., Suvonvorn, N. (2025). Time-Driven Cost Estimation Learning Model.
 
 ### Explainable Learning Model for Cost Estimation Using Time-Driven Activity-Based Costing - Theethawat Savastham & Nikom Suvonvorn
 
-Journal Article in [International Journal of Innovative Computing, Information & Control (IJICIC)](http://www.ijicic.net/),  Since February 2026, Volume 22, Issue 1, Pages 129-143
+Journal Article in [International Journal of Innovative Computing, Information & Control (IJICIC)](http://www.ijicic.net/), Since February 2026, Volume 22, Issue 1, Pages 129-143
 
 Savastham, T., & Suvonvorn, N. (2026). Explainable learning model for cost estimation using time-driven activity-based costing. International Journal of Innovative Computing, Information & Control, 22(1), 129–143. https://doi.org/10.24507/ijicic.22.01.129
 
@@ -41,12 +37,12 @@ Thesis Book in [PSU Knowledge Bank](https://kb.psu.ac.th/)
 Savastham, T. (2025). Artificial neural network-like for manufacturing cost estimation [Prince of Songkla University]. https://kb.psu.ac.th/handle/2025/20120
 
 <a href="https://kb.psu.ac.th/items/9f368dfe-8b77-400f-9874-a69525999df8"><button class="btn btn-sm btn-accent">Go To Article</button></a>
- 
+
 ## Source Code
+
 ### Time Driven Cost Estimation Learning Model - GitHub
 
 Open-source part of Time-Driven Cost Estimation Learning Model under the research titled "Artificial Neural Network like for Manufacturing Cost Estimation" wish to create neural network like system by using the core equation of time-driven activity-based costing.
-
 
 <a href="https://github.com/IARC-Programing/time-driven-cost-estimation-lm"><button class="btn btn-sm btn-accent">Go To Source</button></a>
 

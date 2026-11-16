@@ -16,11 +16,10 @@
     "image": "/img/project/ehealth.jpg",
     "type": "research",
     "year": "2019-2020",
-    "language": [
-      "android",
-      "kotlin"
-    ],
-    "organization": "coe"
+    "language": ["android", "kotlin"],
+    "organization": "coe",
+    "startDate": "2019-11-01",
+    "endDate": "2020-05-31"
   },
   {
     "translation": {
@@ -39,12 +38,10 @@
     "link": "cost-estimation",
     "year": "2023-2025",
     "type": "research",
-    "language": [
-      "python",
-      "numpy",
-      "pandas"
-    ],
-    "organization": "iaec"
+    "language": ["python", "numpy", "pandas"],
+    "organization": "iaec",
+    "startDate": "2023-06-01",
+    "endDate": "2025-10-20"
   },
   {
     "translation": {
@@ -62,13 +59,10 @@
     "image": "/img/project/eaccom/3.jpg",
     "link": "eaccom",
     "year": "2021-2023",
+    "startDate": "2021-06-01",
+    "endDate": "2023-10-31",
     "type": "feature-project",
-    "language": [
-      "js",
-      "react",
-      "node",
-      "mongo"
-    ],
+    "language": ["js", "react", "node", "mongo"],
     "organization": "iaec"
   },
   {
@@ -86,16 +80,11 @@
     },
     "link": "emanufac",
     "image": "/img/project/emanufac/3.jpg",
-    "year": "2021-Present",
+    "year": "2021-2025",
+    "startDate": "2021-06-01",
+    "endDate": "2025-06-31",
     "type": "feature-project",
-    "language": [
-      "js",
-      "react",
-      "npm",
-      "node",
-      "mongo",
-      "gql"
-    ],
+    "language": ["js", "react", "npm", "node", "mongo", "gql"],
     "organization": "iaec"
   },
   {
@@ -115,12 +104,7 @@
     "image": "/img/project/eiot/147278054_3693318977423555_4131158599099766082_n.jpg",
     "year": "2020-2021",
     "type": "feature-project",
-    "language": [
-      "js",
-      "react",
-      "node",
-      "mongo"
-    ],
+    "language": ["js", "react", "node", "mongo"],
     "organization": "iaec"
   },
   {
@@ -139,11 +123,7 @@
     "link": "internship",
     "year": 2019,
     "type": "working-project",
-    "language": [
-      "php",
-      "laravel",
-      "mysql"
-    ]
+    "language": ["php", "laravel", "mysql"]
   },
   {
     "translation": {
@@ -161,12 +141,7 @@
     "link": "esalesman",
     "year": 2020,
     "type": "working-project",
-    "language": [
-      "js",
-      "react",
-      "node",
-      "mongo"
-    ],
+    "language": ["js", "react", "node", "mongo"],
     "organization": "iaec"
   },
   {

@@ -4,6 +4,7 @@ import ProjectLayout from "../../../layouts/ProjectLayout.astro";
 import { isLocale } from "../../../data/i18n";
 import projects from "../../../data/portfolio.json";
 import { resolveContentSidebar } from "../../../utils/contentSidebar";
+import _ from "lodash";
 
 const { locale, slug } = Astro.params;
 if (!isLocale(locale) || !slug) return Astro.redirect("/404");
@@ -24,6 +25,7 @@ const alternateLocales = [
     [requested?.data.contentLanguage, alternate?.data.contentLanguage].filter(isLocale),
   ),
 ];
+
 ---
 
 <ProjectLayout
@@ -31,11 +33,18 @@ const alternateLocales = [
   title={entry.data.title}
   description={entry.data.subtitle}
   contentLanguage={entry.data.contentLanguage}
+  sourceLink={entry.data.sourceLink}
   alternateLocales={alternateLocales}
   image={project?.image}
   period={project?.year?.toString()}
   skills={project?.language}
   headings={headings}
+  projectType={entry.data.projectType}
+  adviser={entry.data.adviser}
+  organization={entry.data.organization}
+  demoLink={entry.data.demoLink}
+  startDate={project?.startDate ? new Date(project?.startDate):undefined}
+  endDate={project?.endDate ? new Date(project?.endDate):undefined}
   contentSidebar={resolveContentSidebar(general?.data, undefined)}
 >
   <Content />

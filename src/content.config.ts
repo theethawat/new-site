@@ -39,7 +39,7 @@ const hero = defineCollection({
             "FolderCode",
           ]),
           label: z.string(),
-        })
+        }),
       ),
     }),
 });
@@ -160,7 +160,10 @@ const about = defineCollection({
 
 // General singleton
 const general = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdoc,yaml}", base: "./src/content/general" }),
+  loader: glob({
+    pattern: "**/*.{md,mdoc,yaml}",
+    base: "./src/content/general",
+  }),
   schema: z.object({
     enableThemeSelector: z.boolean(),
     extraLinksEnabled: z.boolean(),
@@ -181,7 +184,7 @@ const general = defineCollection({
         ]),
         label: z.string(),
         displayOn: z.enum(["both", "dock", "fab"]).optional().default("both"),
-      })
+      }),
     ),
     showAboutSection: z.boolean(),
     showProjectsSection: z.boolean(),
@@ -204,7 +207,10 @@ const general = defineCollection({
 
 // Contact singleton
 const contact = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdoc,yaml}", base: "./src/content/contact" }),
+  loader: glob({
+    pattern: "**/*.{md,mdoc,yaml}",
+    base: "./src/content/contact",
+  }),
   schema: z.object({
     icon: z.enum(["MessageCircleCode", "Mail", "Phone"]),
     linkUrl: z.url(),
@@ -223,6 +229,11 @@ const site = defineCollection({
     subtitle: z.string().optional(),
     contentLanguage: z.enum(["en", "th"]),
     date: z.coerce.date().optional(),
+    sourceLink: z.string().url().optional(),
+    projectType: z.string().optional(),
+    adviser: z.string().optional(),
+    demoLink: z.string().url().optional(),
+    organization: z.string().optional(),
   }),
 });
 

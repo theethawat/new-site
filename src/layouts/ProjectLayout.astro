@@ -23,6 +23,9 @@ interface Props {
   sourceLink?: string;
   headings: MarkdownHeading[];
   contentSidebar: ResolvedContentSidebar;
+  projectType?: string;
+  adviser?: string;
+  organization?: string;
 }
 
 const {
@@ -40,6 +43,9 @@ const {
   sourceLink,
   headings,
   contentSidebar,
+  projectType,
+  adviser,
+  organization,
 } = Astro.props;
 const t = messages[locale];
 const outlineHeadings = headings.filter(
@@ -121,10 +127,14 @@ function calculateDuration(startDate: Date, endDate?: Date) {
       <header class="mb-8">
         <h1 class="mb-4 text-4xl font-bold sm:text-5xl">{title}</h1>
         {description && <p class="mb-6 text-lg text-base-content/70 sm:text-xl" lang={contentLanguage}>{description}</p>}
+        {adviser && <p class="mb-2 text-base-content/70 " lang={contentLanguage}> 
+        <span class="font-semibold">{t.advisor}</span>: {adviser}</p>}
+        {organization && <p class="mb-2 text-base-content/70 " lang={contentLanguage}>
+        <span class="font-semibold">{t.organization}</span>: {organization}</p>}
 
         {(startDate || period) && (
         <div
-          class="mb-6 flex flex-wrap items-center gap-4 text-sm text-base-content/60"
+          class="mb-6 mt-4 flex flex-wrap items-center gap-4 text-sm text-base-content/60"
         >
         <span class="font-semibold">{startDate ? formatPeriod(startDate, endDate) : period?.replace("Present", t.present)}</span>
         {startDate && <><span>•</span><span>{calculateDuration(startDate, endDate)}</span></>}
@@ -221,7 +231,7 @@ function calculateDuration(startDate: Date, endDate?: Date) {
         {contentLanguage !== locale && (
           <p role="status" class="alert alert-info mb-6">{t.original}</p>
         )}
-        <div class="article-prose prose prose-lg max-w-none" lang={contentLanguage}>
+        <div class="article-prose prose  max-w-none" lang={contentLanguage}>
           <slot />
         </div>
 

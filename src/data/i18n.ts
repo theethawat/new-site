@@ -44,6 +44,8 @@ export const messages = {
     downloadCv: "Download the 2023 resume",
     emptyBlog: "No articles are available.",
     siteDescription: "Portfolio and research of Theethawat Savastham",
+    advisor: "Advisor",
+    organization: "Organization",
   },
   th: {
     home: "หน้าแรก",
@@ -81,5 +83,7 @@ export const messages = {
     downloadCv: "ดาวน์โหลดเรซูเม่ปี 2023",
     emptyBlog: "ยังไม่มีบทความ",
     siteDescription: "แฟ้มผลงานและงานวิจัยของธีร์ธวัช สวาสดิ์ธรรม",
+    advisor: "ที่ปรึกษา",
+    organization: "องค์กร",
   },
 } satisfies Record<Locale, Record<string, string>>;

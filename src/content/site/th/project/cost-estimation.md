@@ -2,15 +2,11 @@
 title: ANN-Like for Manufacturing Cost Estimation
 subtitle: Master Degree Research
 contentLanguage: th
+sourceLink: https://github.com/IARC-Programing/time-driven-cost-estimation-lm
+organization: ศูนย์วิศวกรรมระบบอัตโนมัติอัจฉริยะ และ สาขาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์
+projectType: งานวิจัยระดับปริญญาโท
+adviser: ผศ.ดร. นิคม สุวรรณวร
 ---
-
-
-## Project Info
-
-- **รูปแบบงาน** : งานวิจัยระดับปริญญาโท
-- **ปี** : 2566 - 2568
-- **ที่ปรึกษา**: ผศ.ดร. นิคม สุวรรณวร
-- **ร่วมงานกับ**: ศูนย์วิศวกรรมระบบอัตโนมัติอัจฉริยะ และ สาขาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์
 
 ## บทคัดย่อ
 
@@ -28,7 +24,7 @@ Savastham, T., Suvonvorn, N. (2025). Time-Driven Cost Estimation Learning Model.
 
 ### Explainable Learning Model for Cost Estimation Using Time-Driven Activity-Based Costing - Theethawat Savastham & Nikom Suvonvorn
 
-Journal Article ใน [International journal of innovative computing, information & control: IJICIC](http://www.ijicic.net/),  ตั้งแต่ February 2026, Volume 22, Issue 1, Pages 129-143
+Journal Article ใน [International journal of innovative computing, information & control: IJICIC](http://www.ijicic.net/), ตั้งแต่ February 2026, Volume 22, Issue 1, Pages 129-143
 
 Savastham, T., & Suvonvorn, N. (2026). Explainable learning model for cost estimation using time-driven activity-based costing. International Journal of Innovative Computing, Information & Control, 22(1), 129–143. https://doi.org/10.24507/ijicic.22.01.129
 
@@ -43,10 +39,10 @@ Savastham, T. (2025). Artificial neural network-like for manufacturing cost esti
 <a href="https://kb.psu.ac.th/items/9f368dfe-8b77-400f-9874-a69525999df8"><button class="btn btn-sm btn-accent">Go To Article</button></a>
 
 ## ซอร์สโค้ด
+
 ### Time Driven Cost Estimation Learning Model - GitHub
 
 Open-source part of Time-Driven Cost Estimation Learning Model under the research titled "Artificial Neural Network like for Manufacturing Cost Estimation" wish to create neural network like system by using the core equation of time-driven activity-based costing.
-
 
 <a href="https://github.com/IARC-Programing/time-driven-cost-estimation-lm"><button class="btn btn-sm btn-accent">Go To Source</button></a>
 
