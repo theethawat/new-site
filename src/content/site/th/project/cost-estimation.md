@@ -1,6 +1,6 @@
 ---
 title: ANN-Like for Manufacturing Cost Estimation
-subtitle: Master Degree Research
+subtitle: โครงสร้างเสมือนระบบประสาทเทียมสำหรับการประมาณการต้นทุนการผลิต
 contentLanguage: th
 sourceLink: https://github.com/IARC-Programing/time-driven-cost-estimation-lm
 organization: ศูนย์วิศวกรรมระบบอัตโนมัติอัจฉริยะ และ สาขาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์

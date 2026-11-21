@@ -2,24 +2,24 @@
   {
     "translation": {
       "th": {
-        "name": "E-Health for Personal Sensor application",
-        "subtitle": "โปรเจกต์จบการศึกษาปริญญาตรี",
-        "description": "แอปพลิเคชันติดตามสุขภาพของผู้ใช้งาน โดยอ่านผ่าน Bluetooth ในระบบ Android"
+        "name": "Cross-Camera Multi-Object Tracking for Cattle Calving and Dystocia Prediction",
+        "subtitle": "งานวิจัยระดับปริญญาเอก",
+        "description": "การติดตามและทำนายการคลอดและภาวะความผิดปกติของการคลอดในโคนม ด้วยกล้องหลายตัว"
       },
       "en": {
-        "name": "E-Health for Personal Sensor application",
-        "subtitle": "Bachelor Degree Grad. Project",
-        "description": "Application for bluetooth health data reading and inform a dashboard"
+        "name": "Cross-Camera Multi-Object Tracking for Cattle Calving and Dystocia Prediction",
+        "subtitle": "Ph.D. Research",
+        "description": "Cross-Camera Multi-Object Tracking for Pre-Calving and Dystocia Prediction on Dairy Cows"
       }
     },
-    "link": "ehealth",
-    "image": "/img/project/ehealth.jpg",
+    "image": "/img/project/thesis-2/cover.jpg",
+    "link": "cross-camera-tracking",
+    "year": "2025-Present",
     "type": "research",
-    "year": "2019-2020",
-    "language": ["android", "kotlin"],
-    "organization": "coe",
-    "startDate": "2019-11-01",
-    "endDate": "2020-05-31"
+    "language": ["python", "yolo", "pytorch"],
+    "organization": "Information Processing System Laboratory, University of Miyazaki, Japan",
+    "startDate": "2025-12-01",
+    "endDate": ""
   },
   {
     "translation": {
@@ -42,6 +42,28 @@
     "organization": "iaec",
     "startDate": "2023-06-01",
     "endDate": "2025-10-20"
+  },
+  {
+    "translation": {
+      "th": {
+        "name": "E-Health for Personal Sensor application",
+        "subtitle": "โปรเจกต์จบการศึกษาปริญญาตรี",
+        "description": "แอปพลิเคชันติดตามสุขภาพของผู้ใช้งาน โดยอ่านผ่าน Bluetooth ในระบบ Android"
+      },
+      "en": {
+        "name": "E-Health for Personal Sensor application",
+        "subtitle": "Bachelor Degree Grad. Project",
+        "description": "Application for bluetooth health data reading and inform a dashboard"
+      }
+    },
+    "link": "ehealth",
+    "image": "/img/project/ehealth.jpg",
+    "type": "research",
+    "year": "2019-2020",
+    "language": ["android", "kotlin"],
+    "organization": "coe",
+    "startDate": "2019-11-01",
+    "endDate": "2020-05-31"
   },
   {
     "translation": {

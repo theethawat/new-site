@@ -1,22 +1,26 @@
 ---
 title: E-Manufac
-subtitle: ระบบบริหารจัดการและติดตามการผลิต
-contentLanguage: th
+subtitle: Manufacturing Management System
+contentLanguage: en
+projectType: Working Project
+organization: Intelligent Automation Engineering Center, Prince of Songkla University
 ---
-
-
-## Project Info
-
-- **Project Type** : Working Project
-- **Year** : 2021 - Present
-- **Owner** : [Intelligent Automation Research Center](https://iarc.psu.ac.th)
-- **Technique** : JavaScript, React, MongoDB, GraphQL, Microservice
-- **Website** : [iarc.psu.ac.th/digital-platform](https://iarc.psu.ac.th/digital-platform)
-- **Role in Project** : Project Manager, Developer
 
 ## Information
 
-ระบบบริหารจัดการและติดตามการผลิต เป็นระบบ ERP ย่อม ๆ สำหรับการผลิตในอุตสาหกรรม SMEs รายย่อย เริ่มพัฒนาตั้งแต่ปี 2564 จากการสนับสนุนของศูนย์ส่งเสริมอุตสาหกรรมภาคที่ 11 และมหาวิทยาลัยสงขลานครินทร์ โดยเริ่มทดลองใช้ในอุตสาหกรรมบนอำเภอหาดใหญ่ จังหวัดสงขลา ระบบมีความครอบคลุมทั้งคลังวัตถุดิบ คลังสินค้า และการติดตามการผลิตในแต่ละขั้นตอน ต่อมาได้ออกแบบให้โปรแกรมสามารถทำงานในอุตสาหกรรมที่หลากหลายยิ่งขึ้น มีสิ่งต่างๆ ในการผลิตเข้ามาเกี่ยวข้องมากขึ้น ไม่ว่าจะเป็นเรื่องของ Bill of Material, การกระจาย Batch, การแยกหรือรวมกิจกรรม และรวมถึงการออกแบบระบบให้มีความยืดหยุ่นต่ออุตสาหกรรมการผลิต และสามารถ Config ระบบให้เหมาะกับการใช้งานได้ ปัจจุบันมีอยู่ในระหว่างการวิจัยและพัฒนาเพิ่มระบบการคิดต้นทุนต่าง ๆ
+The production management and tracking system serves as a compact ERP solution tailored for small and medium-sized enterprises (SMEs). Development began in 2021 with support from the Industrial Promotion Center Region 11 and Prince of Songkla University, with initial pilot implementations in the Hat Yai District of Songkhla Province.
+
+The system encompasses raw material inventory, finished goods warehousing, and end-to-end production tracking. It was subsequently expanded to support a broader range of industrial sectors, incorporating complex production elements such as Bills of Materials (BOM), batch distribution, and the splitting or merging of operational activities. Designed for high flexibility, the system can be configured to suit the specific requirements of various manufacturing environments—a capability successfully demonstrated through its implementation at a printing facility in Hat Yai.
+
+## System Architecture
+
+Initially, the system was built as a monolithic application using Node.js and MongoDB, with a React-based frontend. As the feature set grew, however, the architecture struggled to handle a larger user base and maintain optimal response times. Consequently, the system was refactored into a microservices architecture, incorporating message queues. Throughout its three-year development lifecycle, the project also served as a platform for exploring various performance optimization techniques, including caching, indexing, and query refinement.
+
+Given the diverse operational behaviors across different industries, the system requires a high degree of flexibility; many requirements can be addressed through configuration rather than direct code modification. While the development journey has seen both successes and setbacks, these experiences have provided invaluable lessons—not only in technical system development but also in ensuring the platform remains maintainable and extensible for future generations of developers. The design is tailored to industrial requirements and facilitates an appropriate digital transformation.
+
+## Current Status
+
+Following my tenure as a student and developer at the engineering center, the system—developed by the Intelligent Automation Engineering Center, Faculty of Engineering—has been copyrighted by Prince of Songkla University (PSU). It is currently offered as a service through PSU Innovative Engineering Co., Ltd., a company under the PSU Holding Company umbrella. Those interested may contact the engineering center or the aforementioned company for further information.
 
 ## Gallery
 
